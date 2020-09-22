@@ -1,0 +1,31 @@
+/* 
+---------------------------------------------
+features
+--------------------------------------------- 
+*/
+
+.arm-ft-color {
+	width: 60px;
+	height: 60px;
+	@include radius(100px);
+	text-align: center;
+	line-height: 60px;
+	font-size: 30px;
+
+	&.primary {
+		background: $prClSoft;
+		color: $prCl;
+	}
+	&.success {
+		background: $succClSoft;
+		color: $succCl;
+	}
+	&.danger {
+		background: $dangClSoft;
+		color: $dangCl;
+	}
+	&.warning {
+		background: $warnClSoft;
+		color: $warnCl;
+	}
+}
