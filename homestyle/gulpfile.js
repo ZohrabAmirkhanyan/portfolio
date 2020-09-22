@@ -5,7 +5,6 @@ var gulp = require('gulp'),
 
 gulp.task('sass', function () {
 	gulp.src(['scss/*.scss'])
-		//.pipe(sass({outputStyle: 'compressed'}))
 		.pipe(sass({outputStyle: 'expanded'}))
 		.pipe(gulp.dest('html/assets/css'))
 });
